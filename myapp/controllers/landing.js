@@ -79,7 +79,7 @@ exports.delete_lead_json = function(req, res, next) {
     }
   }). then(
     result => {
-      res.send({ msg: "Sucess"})
+      res.send({ msg: "Sucess"});
     }
   )
 }
