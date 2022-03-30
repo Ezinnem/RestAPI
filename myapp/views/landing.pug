@@ -5,15 +5,15 @@ html(lang='en')
   body
     header
       include common/navbar.pug
-      +navbar()
+      +navbar(user)
       .container
-         .row.align-items-center
-           .col-md-6.order-md-1.text-center.text-md-left.pr-md-5
-             h1.mb-3 Minimum Lead collaction
-             p.lead This is a simple web page for the leads
-             p.lead.mb-4 Now we have moved to greater heights
-             form(action="/", method="POST")
-               .input-group.mb-3
+          .row.align-items-center
+            .col-md-6.order-md-1.text-center.text-md-left.pr-md-5
+              h1.mb-3 Minimum Lead collaction
+              p.lead This is a simple web page for the leads
+              p.lead.mb-4 Now we have moved to greater heights
+              form(action="/", method="POST")
+                .input-group.mb-3
                   input(name="lead_email" type="email", placeholder="Enter your email address").form-control
                   .input-group-append
                     button(type="submit").btn.btn-primary Submit
