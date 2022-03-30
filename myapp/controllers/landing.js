@@ -11,7 +11,7 @@ exports.submit_lead = function(req, res, next) {
     email: req.body.lead_email
   })
   .then(lead=> {
-    res.redirect('/leads');
+    res.redirect('/');
   })
 };
 
