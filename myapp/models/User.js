@@ -31,6 +31,10 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING,
             allowNull: false,
             uniques: true
+        },
+        isAdmin: {
+            type: DataTypes.BOOLEAN,
+            allowNull: true,
         }
     })
     return User;
