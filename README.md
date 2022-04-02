@@ -1,7 +1,7 @@
 
 ## RestAPI
 
-A portfolio website built using React. 
+An express application with API built using NodeJS 
 
 ## Features:
 1. Displays the projects that has been worked on and deployed.
