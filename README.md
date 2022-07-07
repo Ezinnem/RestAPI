@@ -8,5 +8,4 @@ An express application with API built using NodeJS.
 2. Contains contact details.
 
 ## See the demo
-
 You can view the demo on the browser.
