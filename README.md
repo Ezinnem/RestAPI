@@ -1,7 +1,7 @@
 
 ## RestAPI
 
-An express application with API built using NodeJS.
+An application with API built using Node.js and Express.
 
 ## Features:
 1. Displays the projects that has been worked on and deployed.
